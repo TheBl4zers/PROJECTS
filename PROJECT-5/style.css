@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.nav{
+    /* border-bottom: 1px solid  #000; */
+    position: relative;
+    padding: 2 4vw;
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-part2{
+    align-items: center;
+    display: flex;
+    /* background-color: blue; */
+    gap: 4vw;
+}
+.nav h2{
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+.nav h4{
+    font-size: 1.1vw;
+}
+
+.nav i{
+    font-size: 1.6vw;
+    font-weight: 800;
+    display: none;
+}
+.nav img{
+    height: 90px;
+    width: 90px;
+}
+
+
+@media (max-width:600px){
+    .nav{
+        background-color: #00DFC0;
+        color: white;
+        padding: 0 5vw;
+    }
+    .nav h2{
+        font-size: 6vw;
+    }
+    .nav h4{
+        font-size: 4vw;
+        display: none;
+    }
+    .nav i{
+        display: block;
+        font-size: 6vw;
+    }
+    .nav button{
+        display: none;
+    }
+}
+.content{
+    position: relative;
+    display: flex;
+    height: calc(100% - 100px);
+    width: 100%;
+    /* background-color: burlywood; */
+}
+.left{
+    padding:   5vw 4vw;
+    height: 100%;
+    width: 55%;
+    /* background-color: crimson; */
+}
+.left h1{
+    font-size: 4.2vw;
+    line-height: 4.4vw;
+}
+.left h1 span{
+    color: #00DFC0;
+}
+.left p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+
+.right{
+    height: 100%;
+    width: 45%;
+    /* background-color: aquamarine; */
+}
+
+.content button{
+    font-size: 1.2vw;
+    padding: 1.3vw 2.3vw;
+    background-color: #00DFC0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.right img{
+    height: auto;
+    width: 100%;
+}
+.nav button{
+    font-size: 1vw;
+    padding: 0.7vw 1.4vw;
+    background-color: #385A66;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}

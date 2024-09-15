@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    color: black;
+    position: absolute;
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+#nav{
+    color: black;
+    /* background-color: blue; */
+    height: 50px;
+}
+#content{
+    padding-left: 400px;
+    height: 90%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+input{
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 300px;
+    border-radius: 10000px;
+    height: 50px;
+}
+.Login{
+     margin-left: 250px;
+     margin-top: 20px;
+    border-radius: 100px;
+    border: 1px solid black;
+    color: black;
+    height: 38px;
+    width: 100px;
+    padding: 4px;
+    font-size: 17px;
+    background: transparent;
+}
+.Login:hover{
+    margin-left: 250px;
+    margin-top: 20px; 
+    border-radius: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 38px;
+    width: 100px;
+    padding: 4px;
+    font-size: 17px;
+    background-color: gray;
+}
+.home:hover{
+    border-radius: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 38px;
+    width: 100px;
+    padding: 4px;
+    font-size: 17px;
+    background-color: gray;
+}
+.about:hover{
+    border-radius: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 38px;
+    width: 100px;
+    padding: 4px;
+    font-size: 17px;
+    background-color: gray;
+}
+.contact:hover{
+    border-radius: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 38px;
+    width: 120px;
+    padding: 4px;
+    font-size: 17px;
+    background-color: gray;
+}
+.home{
+    color: black;
+    border-radius: 100px;
+    border: 1px solid black;
+    color: black;
+    height: 38px;
+    width: 100px;
+    padding: 4px;
+    font-size: 17px;
+    background: transparent;
+}
+.about{
+    color: black;
+    margin-left: 76%;
+    border-radius: 100px;
+    border: 1px solid black;
+    color: black;
+    height: 38px;
+    width: 100px;
+    padding: 4px;
+    font-size: 17px;
+    background: transparent;
+}
+.contact{
+    color: black;
+    border-radius: 100px;
+    border: 1px solid black;
+    color: black;
+    height: 38px;
+    width: 120px;
+    padding: 4px;
+    font-size: 17px;
+    background: transparent;
+}

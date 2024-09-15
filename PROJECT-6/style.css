@@ -1,0 +1,171 @@
+*{
+    background-color: #0A090A;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+.nav{
+    padding: 0 50px;
+    height: 140px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-pt2{
+    /* background-color: blue; */
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+.nav>i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.nav>h5{
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.nav img{
+    height: 50px;
+}
+.line{
+    height: 2px;
+    width: 80px;
+    background-color: red;
+}
+.content{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: calc(100% - 140px);
+    /* background-color: lightblue; */
+}
+.left{
+    padding: 160px 80px;
+    height: 100%;
+    width: 36%;
+    /* background-color: lightcoral; */
+}
+.centre{
+    height: 100%;
+    width: 26%;
+    /* background-color: lightgrey; */
+    padding-top: 60px;
+}
+.right{
+    padding-left: 10px;
+    padding-right: 18px;
+    padding-top: 17%;
+    position: relative;
+    height: 100%;
+    width: 36%;
+    /* background-color: lightgreen; */
+}
+.left h1{
+    margin-bottom: 50px;
+    font-weight: 600;
+    line-height: 55px;
+    font-size: 55px;
+}
+span{
+    font-weight: 400;
+    color: red;
+}
+
+.left p{
+    line-height: 20px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    /* width: 80%; */
+}
+.left button i{
+    margin-right: 8px;
+    background-color: red;
+}
+.left button{
+    font-size: 15px;
+    background-color: #ff0011;
+    border-radius: 50px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.cbg{
+    position: relative;
+    filter: blur(0.5px);
+    /* position: absolute; */
+    background-color: #fff9ab;
+    height: 95%;
+    width: 100%;
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+    background-image: url(https://wallpaperaccess.com/full/34323.jpg);
+    background-size: 300%;
+    background-position: 50% 30%;
+}
+.center>img{
+    transform: translate(-50%,0);
+    margin-top: 230px;
+    background-color: transparent;
+    height: 60%;
+    position: absolute;
+    left: 49%;
+    transform: translate(-50%,0);
+}
+/* .re{
+    font-weight: 700;
+    background-color: #f00;
+    width: calc(100% - 150px);
+    margin-top: 60%;
+    margin-left: 50px;
+} */
+.elem1{
+    border-bottom: 1px solid grey;
+    /* justify-content: space-around ; */
+    display: flex;
+    align-items: center;
+    height: 50px;
+    /* background-color: blanchedalmond; */
+}
+.elem1 i{
+    justify-content: end;
+    align-items: end;
+}
+.elem2>h1{
+    border-bottom: 1px solid gray;
+}
+.elem2 p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #adadad;
+}
+.con{
+    margin-top:24%;
+    position: absolute;
+    /* background-color: #f00; */
+    height: 50%;
+    width: 100%;
+}
